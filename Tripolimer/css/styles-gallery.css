@@ -1,0 +1,158 @@
+*{
+font-family: 'Poppins', sans-serif;
+}
+/* Desktop Version */
+@media (min-width: 992px) { 
+.headline{
+  text-align: left !important;
+}
+  /* Navbar */
+.bg-light{
+  background-color: #fff !important;
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.nav-item a:hover{
+  border-bottom: 2px solid #E5383B;
+}
+#gallery a{
+  border-bottom: 2px solid #E5383B;
+}
+.navbar-nav li{
+  font-weight: 600;
+}
+.menu{
+  padding-left: 150px;
+}
+/* Content Gallery */
+.detail-gallery{
+  margin-top: 70px;
+}
+#title{
+  font-size: 2em;
+}
+.my-gallery{
+  margin-top: 70px;
+}
+/* Footer */
+.my-footer{
+  background-color: #5D6061;
+}
+
+.footer-content{
+    margin-left: 120px;
+    margin-right: 120px;
+    /* margin-bottom: ; */
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+   .sosmed i{
+    font-size: 1.8em;
+    color: white;
+  }
+  .sosmed{
+    padding-left: 70px;
+  }
+  .qlink{
+    padding-left: 100px;
+  }
+  .copy-right{
+    background-color: #BA181B;
+  
+  }
+}
+
+
+
+/* Tablet Version */
+@media (min-width: 667px) and (max-width: 991px) { 
+   /* Navbar */
+.bg-light{
+  background-color: #fff !important;
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.navbar-nav li{
+  font-weight: 600;
+}
+/* Content Contact */
+.detail-gallery{
+  margin-top: 70px;
+}
+#title{
+  font-size: 1.5em;
+}
+.my-gallery{
+  margin-top: 70px;
+}
+/* Footer */
+ .my-footer{
+  background-color: #5D6061;
+ }
+ .footer-content{
+    margin-left: 50px;
+    /* margin-bottom: ; */
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+   .sosmed i{
+    font-size: 1.8em;
+    color: white;
+  }
+  .sosmed{
+    padding-left: 20px;
+  }
+  .qlink{
+    padding-left: 50px;
+  }
+  .copy-right{
+    background-color: #BA181B;
+  }
+}
+
+
+
+
+/* Mobile Version */
+ @media (min-width: 375px) and (max-width: 667px) {
+   /* Navbar */
+.bg-light{
+  background-color: #fff !important;
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.navbar-nav li{
+  font-weight: 600;
+}
+
+/* Content contact */
+.detail-gallery{
+  margin-top: 70px;
+}
+#title{
+  font-size: 1.5em;
+}
+.my-gallery{
+  margin-top: 50px;
+}
+/* Footer */
+ .my-footer{
+  background-color: #5D6061;
+ }
+ .sosmed i{
+    font-size: 2em;
+    color: white;
+  }
+  .copy-right{
+    background-color: #BA181B;
+  }
+ }

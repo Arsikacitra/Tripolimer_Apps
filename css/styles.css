@@ -1,0 +1,584 @@
+*{
+font-family: 'Poppins', sans-serif;
+
+}
+/* Desktop Version */
+@media (min-width: 992px) { 
+  .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+.headline{
+  text-align: left !important;
+}
+  /* Navbar */
+.bg-light{
+  background-color: #fff !important;
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.nav-item a:hover{
+  border-bottom: 2px solid #E5383B;
+}
+#home a{
+  border-bottom: 2px solid #E5383B;
+}
+.navbar-nav li{
+  font-weight: 600;
+}
+
+.menu{
+    padding-left: 150px;
+  }
+.asset4 img{
+  position: relative;
+  top: -30px !important;
+
+}
+
+/* headline & CTA */
+.headline-cta {
+
+  background-image: url('../assets/background.png');
+  /* background-color: salmon; */
+  /* Full height */
+  height: 670px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat:repeat;
+  background-size: auto;
+  padding-top: 130px;
+}
+.headline p{
+  font-size: 1em;
+  line-height: 2em;
+  
+}
+
+.cta{
+  background-color: #E5383B;
+  color: white;
+  padding:14px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.cta:hover, .cta:focus, .cta:active{
+  box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+  -webkit-transform: scale(1.1);
+  transform:scale(1.1);
+} 
+/* Info Panel */
+.info-panel{
+  box-shadow: 0 5px 6px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  margin-top: -80px;
+  background-color: white;
+  padding:30px;
+
+}
+.info-panel img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  
+
+}
+
+.info-panel h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.info-panel p{
+  font-size: 14px;
+  color:black;
+  margin-top: -5px;
+ 
+  
+}
+
+/* Slide Show */
+.my-produk{
+  padding-top: 70px;
+}
+.my-produk p{
+  text-align: center;
+  font-size: 16px;
+}
+.my-produk h2{
+  font-weight: bold;
+}
+
+ .slide-1{
+    margin-top: 150px;
+  }
+.card{
+  border-radius: 22px;
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.3);
+}
+  .card img{
+    border-radius: 22px;
+  }
+.card-text{
+  font-size: 0.8em;
+}
+.thumbnail-produk{
+  margin-bottom: 90px;
+}
+.cta-produk:focus{
+   outline: none;
+  
+}
+.cta-produk{
+  background-color: #E5383B;
+ 
+  color: white;
+  padding:10px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  font-size: smaller;
+}
+
+.cta-produk:hover, .cta:focus, .cta:active{
+  box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+  -webkit-transform: scale(1.1);
+  transform:scale(1.1);
+} 
+
+  /* Company Profile */
+  .figure{
+    margin:100px;
+  }
+ .profil-company{
+   background-color: #B1A7A6;
+ }
+ .cta-company:focus{
+    outline: none;  
+ }
+ .cta-company{
+  background-color: #660708;
+  color: white;
+  padding:14px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.cta-company:hover, .cta:focus, .cta:active{
+  box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+  -webkit-transform: scale(1.1);
+  transform:scale(1.1);
+} 
+
+/* Footer */
+ .my-footer{
+  background-color: #5D6061;
+ }
+ .footer-content{
+    margin-left: 120px;
+    margin-right: 120px;
+    /* margin-bottom: ; */
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+   .sosmed i{
+    font-size: 1.8em;
+    color: white;
+  }
+  .sosmed{
+    padding-left: 70px;
+  }
+  .qlink{
+    padding-left: 100px;
+  }
+  .copy-right{
+    background-color: #BA181B;
+  }
+ 
+  
+ }
+
+
+
+ /* Tablet Version */
+@media (min-width: 768px) and (max-width: 991px) and (max-width: 991px) { 
+   /* Navbar */
+ .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+.bg-light{
+  background-color: #fff !important;
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.navbar-nav li{
+  font-weight: 600;
+}
+
+/* * headline & CTA */ 
+.headline-cta {
+
+  background-image: url('../assets/background.png');
+  /* background-color: salmon; */
+  /* Full height */
+  height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+  padding-top: 130px;
+}
+.headline p{
+  font-size: 1em;
+  line-height: 2em;
+  
+}
+
+.headline{
+  text-align: center;
+
+}
+
+.info-panel{
+  box-shadow: 0 5px 6px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  margin-top: -40px;
+  background-color: white;
+  padding: 30px;
+
+}
+.info-panel img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.info-panel p{
+  font-size: 14px;
+  color:black;
+  margin-top: -5px;
+}
+/* Slide-show */
+
+.my-produk{
+  padding-top: 70px;
+}
+.my-produk p{
+  text-align: center;
+  font-size: 16px;
+}
+.my-produk h2{
+  font-weight: bolder;
+}
+ 
+ .slide-1{
+    margin-top: 100px;
+  }
+  .card{
+    border-radius: 22px;
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.3);
+  }
+    .card img{
+      border-radius: 22px;
+    }
+  .card-text{
+    font-size: 0.8em;
+  }
+  .thumbnail-produk{
+    margin-bottom: 90px;
+  }
+  .cta-produk{
+    background-color: #E5383B;
+    color: white;
+    padding:10px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+    -webkit-transform-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    font-size: smaller;
+  }
+  
+  .cta-produk:hover, .cta:focus, .cta:active{
+    box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+  } 
+
+/* Company Profile */
+  .figure{
+    margin: 150px 0 50px 50px;
+    width: 75%;
+  }
+ .profil-company{
+   background-color: #B1A7A6;
+ }
+ .cta-company{
+  background-color: #660708;
+  color: white;
+  padding:14px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.cta-company:hover, .cta:focus, .cta:active{
+  box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+  -webkit-transform: scale(1.1);
+  transform:scale(1.1);
+}
+/* Footer */
+ .my-footer{
+  background-color: #5D6061;
+ }
+ .footer-content{
+    margin-left: 50px;
+    /* margin-bottom: ; */
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+   .sosmed i{
+    font-size: 1.8em;
+    color: white;
+  }
+  .sosmed{
+    padding-left: 20px;
+  }
+  .qlink{
+    padding-left: 70px;
+  }
+  .copy-right{
+    background-color: #BA181B;
+  }
+
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+ /* Mobile Version */
+ @media (min-width: 375px) and (max-width: 767px) {
+   /* Navbar */
+ .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+.bg-light{
+  background-color: #fff !important;
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.navbar-nav li{
+  font-weight: 600;
+  
+}
+.headline{
+  text-align: center;
+  
+}
+
+ /* * headline & CTA */
+.headline-cta {
+
+  background-image: url('../assets/background.png');
+  /* background-color: salmon; */
+  /* Full height */
+  height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+  padding-top: 130px;
+}
+.headline p{
+  font-size: 1em;
+  line-height: 2em;
+  
+}
+.cta{
+  background-color: #E5383B;
+  color: white;
+  padding:10px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.cta-2:hover, .cta:focus, .cta:active{
+  box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+  -webkit-transform: scale(1.1);
+  transform:scale(1.1);
+}
+.asset4 img{
+  position: relative;
+  top: -10px !important;
+  /* left: 5px; */
+} 
+.info-panel{
+  box-shadow: 0 5px 6px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  margin-top: -50px;
+  background-color: white;
+  padding: 30px;
+
+}
+.info-panel img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.info-panel p{
+  font-size: 14px;
+  color:black;
+  margin-top: -5px;
+}
+/* Slide-show */
+.my-produk{
+  padding-top: 70px;
+}
+.my-produk p{
+  text-align: center;
+  font-size: 16px;
+}
+.my-produk h2{
+  font-weight: bold;
+}
+
+
+ .slide-1 h3{
+  font-size: 1.5em;
+  }
+  .card{
+    border-radius: 22px;
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.3);
+  }
+    .card img{
+      border-radius: 22px;
+    }
+  .card-text{
+    font-size: 0.8em;
+  }
+  .thumbnail-produk{
+    margin-bottom: 90px;
+  }
+  .cta-produk{
+    background-color: #E5383B;
+    color: white;
+    padding:10px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+    -webkit-transform-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    font-size: smaller;
+  }
+  
+  .cta-produk:hover, .cta:focus, .cta:active{
+    box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+  } 
+/* Company Profile */
+  .figure{
+    margin: 40px;
+    width: 75%;
+  }
+ .profil-company{
+   background-color: #B1A7A6;
+ }
+ .cta-company{
+  background-color: #660708;
+  color: white;
+  padding:14px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.cta-company:hover, .cta:focus, .cta:active{
+  box-shadow:0 0 20px rgba(68, 20, 20, 0.3);
+  -webkit-transform: scale(1.1);
+  transform:scale(1.1);
+} 
+/* Footer */
+ .my-footer{
+  background-color: #5D6061;
+ }
+ .sosmed i{
+    font-size: 2em;
+    color: white;
+  }
+  .copy-right{
+    background-color: #BA181B;
+  }
+  }
